@@ -1,0 +1,13 @@
+venv
+__pycache__
+.ipynb_checkpoints
+# Ignore Python virtual environments
+venv/
+
+# Ignore large binary files
+*.dll
+*.pyd
+*.so
+
+# Ignore TensorFlow-related binaries
+tensorflow/
